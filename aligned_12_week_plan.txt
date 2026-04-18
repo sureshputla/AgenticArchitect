@@ -1,0 +1,92 @@
+The previous plan partially aligns - it only mapped Karpathy videos to Weeks 1-6 and ignored Weeks 7-12 entirely, plus it did not incorporate the other resources from the README. Here is a fully aligned plan:
+
+============================================================
+ALIGNED LEARNING PLAN - 12 WEEKS
+============================================================
+
+Weeks 1-2 | LLM + RAG Basics
+----------------------------------------
+- Video: Intro to Large Language Models - Karpathy
+  https://www.youtube.com/watch?v=zjkBMFhNj_g
+- Video: Let's build the GPT Tokenizer - Karpathy
+  https://www.youtube.com/watch?v=zduSFxRajkE
+- Video: Let's build GPT from scratch - Karpathy
+  https://www.youtube.com/watch?v=kCc8FmEb1nY
+- Docs: Hugging Face NLP Course Ch.1-4
+  https://huggingface.co/learn/nlp-course/en/chapter1/1
+- Docs: Pinecone - RAG concepts
+  https://www.pinecone.io/learn/
+- Docs: pgvector Docs
+  https://github.com/pgvector/pgvector
+- Build: Spring Boot Q&A service with pgvector
+
+Weeks 3-4 | Tool-Calling Agents
+----------------------------------------
+- Video: State of GPT - Karpathy
+  https://www.youtube.com/watch?v=bZQun8Y4L2A
+- Docs: Spring AI Docs - Function Calling
+  https://spring.io/projects/spring-ai
+- Docs: OpenAI Cookbook - Tool Use Patterns
+  https://github.com/openai/openai-cookbook
+- Docs: Anthropic Prompt Engineering Docs
+  https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
+- Article: Baeldung - Spring AI integrations
+  https://www.baeldung.com/
+- Build: Add tool APIs (mock DB / calendar / search) with guardrails
+
+Weeks 5-6 | Multi-Step Planning + Memory
+----------------------------------------
+- Video: LLM Reasoning / Thinking - Karpathy
+  https://www.youtube.com/watch?v=7xTGNNLPyMI
+- Docs: LangGraph Docs - Planning loops
+  https://langchain-ai.github.io/langgraph/
+- Docs: DeepLearning.AI - Agentic Workflows course
+  https://www.deeplearning.ai/short-courses/
+- Docs: Weaviate Academy - vector memory
+  https://weaviate.io/developers/academy
+- Build: Planner-executor loop + short-term memory + checkpointing
+
+Weeks 7-8 | Multi-Agent Orchestration
+----------------------------------------
+- Docs: Microsoft AutoGen Docs
+  https://microsoft.github.io/autogen/
+- Docs: CrewAI Docs - role-based agents
+  https://docs.crewai.com/
+- Docs: LangGraph multi-agent examples
+  https://github.com/langchain-ai/langgraph
+- Video: Devoxx - AI in Java ecosystem
+  https://www.youtube.com/@Devoxx
+- Article: InfoQ - GenAI architecture in enterprise Java
+  https://www.infoq.com/
+- Build: Planner/Researcher/Critic/Executor agents + Kafka async workflow
+
+Weeks 9-10 | Reliability and Evals
+----------------------------------------
+- Docs: Langfuse Docs - tracing and evals
+  https://langfuse.com/docs
+- Docs: Arize Phoenix - open-source observability
+  https://phoenix.arize.com/
+- Docs: OpenTelemetry Docs
+  https://opentelemetry.io/docs/
+- Docs: DeepLearning.AI - Evaluating LLM outputs
+  https://www.deeplearning.ai/short-courses/
+- Build: Golden test set + regression evals + tracing + Grafana cost dashboard
+
+Weeks 11-12 | Production Architecture
+----------------------------------------
+- Article: OWASP Top 10 for LLMs (must-read)
+  https://owasp.org/www-project-top-10-for-large-language-model-applications/
+- Docs: NIST AI RMF
+  https://www.nist.gov/artificial-intelligence
+- Article: Martin Fowler - Architecture patterns
+  https://martinfowler.com/
+- Blog: AWS/GCP/Azure agent reference architectures
+  https://aws.amazon.com/blogs/machine-learning/
+- Video: CNCF Talks - cloud-native reliability
+  https://www.youtube.com/@cncf
+- Video: ByteByteGo - system design
+  https://bytebytego.com/
+- Build: AuthN/AuthZ + safety filters + PII controls + deploy + write ADRs
+
+Key fix from previous plan:
+Karpathy videos are front-loaded in Weeks 1-6 (theory foundation), while framework docs, orchestration patterns, evals, and security resources fill Weeks 7-12 - matching the README roadmap.
